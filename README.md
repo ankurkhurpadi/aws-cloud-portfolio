@@ -28,13 +28,13 @@ The website is hosted in a private Amazon S3 bucket and delivered globally throu
                       │
                       ▼
              Private Amazon S3
+                /          \
+         Versioning      Lifecycle
                       │
-              ┌───────┴───────┐
-              │               │
-         Versioning       Lifecycle
+                      ▼
+             Website Files
 
-
-## ☁️ AWS Services Used
+☁️ AWS Services Used
 Amazon S3
 Created a private S3 bucket for website files.
 Uploaded HTML, CSS and JavaScript files.
@@ -58,7 +58,7 @@ Hostinger DNS
 Configured DNS for the custom domain.
 Pointed techankur.cloud to the CloudFront distribution.
 Added the ACM DNS validation record.
-## 🔐 Security Configuration
+🔐 Security Configuration
 
 The project follows basic AWS security best practices:
 
@@ -68,7 +68,7 @@ CloudFront Origin Access Control (OAC) is used.
 S3 bucket policy allows read access from the CloudFront distribution.
 HTTPS is enabled for secure website access.
 IAM and resource permissions follow the principle of least privilege.
-## 🔄 Versioning & Lifecycle Management
+🔄 Versioning & Lifecycle Management
 S3 Versioning
 
 S3 Bucket Versioning is enabled to preserve previous versions of website objects.
@@ -81,7 +81,7 @@ A lifecycle rule is configured to permanently delete noncurrent object versions 
 
 This helps manage storage usage and reduce unnecessary storage costs.
 
-## 🚀 Deployment Workflow
+🚀 Deployment Workflow
 Developed the website using HTML, CSS and JavaScript.
 Tested the website locally using VS Code and Live Server.
 Created an Amazon S3 bucket.
@@ -97,7 +97,7 @@ Configured Hostinger DNS.
 Enabled S3 Versioning.
 Configured an S3 Lifecycle Policy.
 Tested the website using HTTPS.
-## 🛠️ Technologies
+🛠️ Technologies
 HTML5
 CSS3
 JavaScript
@@ -110,40 +110,41 @@ HTTPS / SSL
 Git
 GitHub
 VS Code
-## 📂 Project Structure
+📂 Project Structure
+
 aws-cloud-portfolio/
 │
 ├── screenshots/
 │   ├── .gitkeep
-│   └── s3-bucket.png
+│   ├── s3-bucket.png
+│   ├── cloudfront.png
+│   ├── acm-issued.png
+│   ├── acm-details.png
+│   ├── hostinger-dns.png
+│   ├── website-home.png
+│   ├── website-full.png
+│   └── architecture.png
 │
 ├── index.html
 ├── script.js
 ├── style.css
 └── README.md
-## 📸 Screenshots
+📸 Screenshots
+🪣 S3 Bucket
 
-### 🪣 S3 Bucket
-![S3 Bucket](screenshots/s3-bucket.png)
+🌐 CloudFront Distribution
 
-### 🌐 CloudFront Distribution
-![CloudFront Distribution](screenshots/cloudfront.png)
+🔐 ACM Certificate – Issued
 
-### 🔐 ACM Certificate – Issued
-![ACM Certificate](screenshots/acm-issued.png)
+📋 ACM Certificate Details
 
-### 📋 ACM Certificate Details
-![ACM Certificate Details](screenshots/acm-details.png)
+🌍 Hostinger DNS
 
-### 🌍 Hostinger DNS
-![Hostinger DNS](screenshots/hostinger-dns.png)
+💻 Live Website
 
-### 💻 Live Website
-![Live Website](screenshots/website-home.png)
+🏗️ AWS Architecture
 
-### 🏗️ AWS Architecture
-![AWS Architecture](screenshots/architecture.png)
-## 🌍 Project Highlights
+🌍 Project Highlights
 Secure private S3 origin
 Global content delivery using CloudFront
 HTTPS-enabled custom domain
@@ -153,7 +154,7 @@ S3 Lifecycle Management
 DNS configuration
 Static website deployment
 Git/GitHub version control
-## 🎯 Learning Outcomes
+🎯 Learning Outcomes
 
 Through this project, I gained practical experience with:
 
@@ -167,7 +168,7 @@ CloudFront Origin Access Control
 Version management
 Lifecycle management
 Git and GitHub
-## 👨‍💻 Author
+👨‍💻 Author
 
 Ankur Khurpadi
 
