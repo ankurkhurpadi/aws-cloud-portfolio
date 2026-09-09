@@ -32,7 +32,9 @@ The website is hosted in a private Amazon S3 bucket and delivered globally throu
          Versioning      Lifecycle
                       │
                       ▼
-             Website Files
+           Website Files
+```
+
 ☁️ AWS Services Used
 Amazon S3
 Created a private S3 bucket for website files.
