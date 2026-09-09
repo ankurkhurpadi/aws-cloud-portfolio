@@ -124,21 +124,26 @@ aws-cloud-portfolio/
 ├── script.js
 ├── style.css
 └── README.md
-📸 Screenshots
-🪣 S3 Bucket
+### 🪣 S3 Bucket
+![S3 Bucket](screenshots/s3-bucket.png)
 
-🌐 CloudFront Distribution
+### 🌐 CloudFront Distribution
+![CloudFront Distribution](screenshots/cloudfront.png)
 
-🔐 ACM Certificate – Issued
+### 🔐 ACM Certificate – Issued
+![ACM Certificate](screenshots/acm-issued.png)
 
-📋 ACM Certificate Details
+### 📋 ACM Certificate Details
+![ACM Certificate Details](screenshots/acm-details.png)
 
-🌍 Hostinger DNS
+### 🌍 Hostinger DNS
+![Hostinger DNS](screenshots/hostinger-dns.png)
 
-💻 Live Website
+### 💻 Live Website
+![Live Website](screenshots/website-home.png)
 
-🏗️ AWS Architecture
-
+### 🏗️ AWS Architecture
+![AWS Architecture](screenshots/architecture.png)
 🌍 Project Highlights
 Secure private S3 origin
 Global content delivery using CloudFront
