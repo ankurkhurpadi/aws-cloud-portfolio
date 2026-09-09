@@ -123,14 +123,26 @@ aws-cloud-portfolio/
 └── README.md
 ## 📸 Screenshots
 
-Screenshots of the AWS infrastructure and deployed website will be added here.
+### 🪣 S3 Bucket
+![S3 Bucket](screenshots/s3-bucket.png)
 
-S3 Bucket
-CloudFront Distribution
-ACM Certificate
-Hostinger DNS
-Live Website
-AWS Architecture
+### 🌐 CloudFront Distribution
+![CloudFront Distribution](screenshots/cloudfront.png)
+
+### 🔐 ACM Certificate – Issued
+![ACM Certificate](screenshots/acm-issued.png)
+
+### 📋 ACM Certificate Details
+![ACM Certificate Details](screenshots/acm-details.png)
+
+### 🌍 Hostinger DNS
+![Hostinger DNS](screenshots/hostinger-dns.png)
+
+### 💻 Live Website
+![Live Website](screenshots/website-home.png)
+
+### 🏗️ AWS Architecture
+![AWS Architecture](screenshots/architecture.png)
 ## 🌍 Project Highlights
 Secure private S3 origin
 Global content delivery using CloudFront
