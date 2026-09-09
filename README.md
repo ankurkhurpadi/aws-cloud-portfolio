@@ -33,7 +33,6 @@ The website is hosted in a private Amazon S3 bucket and delivered globally throu
                       │
                       ▼
              Website Files
-
 ☁️ AWS Services Used
 Amazon S3
 Created a private S3 bucket for website files.
@@ -59,9 +58,7 @@ Configured DNS for the custom domain.
 Pointed techankur.cloud to the CloudFront distribution.
 Added the ACM DNS validation record.
 🔐 Security Configuration
-
 The project follows basic AWS security best practices:
-
 S3 Block Public Access enabled.
 S3 bucket is not publicly accessible.
 CloudFront Origin Access Control (OAC) is used.
@@ -80,7 +77,6 @@ Lifecycle Policy
 A lifecycle rule is configured to permanently delete noncurrent object versions after the configured retention period.
 
 This helps manage storage usage and reduce unnecessary storage costs.
-
 🚀 Deployment Workflow
 Developed the website using HTML, CSS and JavaScript.
 Tested the website locally using VS Code and Live Server.
@@ -111,7 +107,6 @@ Git
 GitHub
 VS Code
 📂 Project Structure
-
 aws-cloud-portfolio/
 │
 ├── screenshots/
